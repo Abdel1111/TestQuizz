@@ -1,0 +1,12 @@
+To run this project
+
+Open a prompt command console int the root of the project CreditSuisse
+
+Run HSQL database  
+
+java -cp WebContent/lib/hsqldb-2.2.8.jar org.hsqldb.Server -database.0 file:data/mydb -dbname.0 xdb
+
+launch this command 
+
+java -cp target/CreditSuisse.jar ch.creditsuisse.poland.wroclaw.main.Main "LOCAL_PATH_LOGFIL.TXT"
+
